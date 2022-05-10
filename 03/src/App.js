@@ -5,7 +5,7 @@ import Form from "./components/Form/Form";
 
 const initialStateItems = [
   {
-    image: "https://pbs.twimg.com/profile_images/906557353549598720/oapgW_Fp.jpg",
+    image: "https://media-exp1.licdn.com/dms/image/C4D03AQHf0o2eysYdrg/profile-displayphoto-shrink_200_200/0/1517254741113?e=1657756800&v=beta&t=aWeD6zoXeGch0ZtrdurH0lsIqTUN-_1-PMYgjrgK9OA",
     name: "Dan Abramov",
     description: "The creator of React",
     twitterLink: "https://twitter.com/dan_abramov"
@@ -37,6 +37,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+        <h1>Siema</h1>
         <ListWrapper items={this.state.items} />
         <Form submitFn={this.addItem} />
       </div>
